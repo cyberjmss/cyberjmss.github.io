@@ -1,0 +1,23 @@
+body{
+    border-color: black;
+    background-color: #f8dda1;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+h1{
+    text-align: center;
+}
+.topnav{
+    background-color: blue;
+    height: 50px;
+    border-bottom-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+
+}
+#session {
+    top:0;
+    padding-top:0;
+    position:relative;
+    margin:0;
+}

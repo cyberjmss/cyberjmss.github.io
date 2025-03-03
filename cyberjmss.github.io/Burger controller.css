@@ -1,0 +1,33 @@
+.hamBurger{
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 100;
+    border: black solid 1px;
+    background: white;
+    cursor: pointer;
+}
+
+.closeIcon{
+    display: none;
+}
+
+.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    background: black;
+    color: white;
+    list-style: none;
+    padding-top: 4rem;
+}
+
+.showMenu{
+    transform: translateY(0);
+
+}
+
