@@ -21,7 +21,7 @@ body{
 }
 .body-right{
     flex: 60%;
-    padding: 20px;
+    padding: auto auto;
     justify-content: center;
     flex-direction: column; 
     align-items: center;
